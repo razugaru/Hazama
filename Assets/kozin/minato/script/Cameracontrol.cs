@@ -21,6 +21,7 @@ public class Cameracontrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (Input.GetMouseButtonDown(1) && MainCameraON == true)
         {
             MainCamera.enabled = false;
@@ -31,8 +32,13 @@ public class Cameracontrol : MonoBehaviour
         {
             MainCamera.enabled = true;
             SubCamera.enabled = false;
-
             MainCameraON = true;
+
+            float scroll = Input.GetAxis("Mouse ScrollWheel");
+            transform.position += transform.forward * scroll;
+            /*
+            float fWheel = Input.GetAxis("Mouse ScrollWheel");
+            transform.Translate(0, 0, fWheel);*/
         }
     }
 }
