@@ -57,7 +57,7 @@ public class Enemy : MonoBehaviour {
         //次の地点がないとき
         if(patrolPositions.Length == 0)
         {
-            return;
+            return; 
         }
         //エージェントが現在設定された目標地点に行くように
         agent.destination = patrolPositions[nowPos].position;
