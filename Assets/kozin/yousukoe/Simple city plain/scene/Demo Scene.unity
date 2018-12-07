@@ -8604,7 +8604,7 @@ Prefab:
     - target: {fileID: 65578096743110886, guid: 9c0f79b888e343d4083ce5e68cdad7c2,
         type: 2}
       propertyPath: m_Size.y
-      value: 0.3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 65578096743110886, guid: 9c0f79b888e343d4083ce5e68cdad7c2,
         type: 2}
@@ -27797,7 +27797,7 @@ Prefab:
     - target: {fileID: 65578096743110886, guid: 9c0f79b888e343d4083ce5e68cdad7c2,
         type: 2}
       propertyPath: m_Size.y
-      value: 0.3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 65578096743110886, guid: 9c0f79b888e343d4083ce5e68cdad7c2,
         type: 2}
@@ -28491,6 +28491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01d6145d74955f941a015d10ba1ae018, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cam: {fileID: 0}
 --- !u!1 &1092848009
 GameObject:
   m_ObjectHideFlags: 0
@@ -32936,7 +32937,7 @@ Prefab:
     - target: {fileID: 65578096743110886, guid: 9c0f79b888e343d4083ce5e68cdad7c2,
         type: 2}
       propertyPath: m_Size.y
-      value: 0.3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 65578096743110886, guid: 9c0f79b888e343d4083ce5e68cdad7c2,
         type: 2}
@@ -35114,6 +35115,11 @@ Prefab:
     - target: {fileID: 4378884759841218, guid: 3c4acb08f61cd914cadec8be93d20883, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 54556583865011772, guid: 3c4acb08f61cd914cadec8be93d20883,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c4acb08f61cd914cadec8be93d20883, type: 2}
@@ -53032,7 +53038,7 @@ Prefab:
     - target: {fileID: 65578096743110886, guid: 9c0f79b888e343d4083ce5e68cdad7c2,
         type: 2}
       propertyPath: m_Size.y
-      value: 0.3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 65578096743110886, guid: 9c0f79b888e343d4083ce5e68cdad7c2,
         type: 2}
@@ -53577,7 +53583,7 @@ Prefab:
     - target: {fileID: 65578096743110886, guid: 9c0f79b888e343d4083ce5e68cdad7c2,
         type: 2}
       propertyPath: m_Size.y
-      value: 0.3
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 54234532526512562, guid: 9c0f79b888e343d4083ce5e68cdad7c2, type: 2}
